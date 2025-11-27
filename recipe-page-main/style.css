@@ -1,7 +1,71 @@
 body {
-  margin: 0;
-  padding: 0;
   background-color: hsl(33, 66%, 92%);
-  font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+}
+.container {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 10px;
+  width: 600px;
+  padding: 8px;
+  margin: 32px;
+}
+.container div {
+  margin-left: 20px;
+}
+.image-container {
+  display: flex;
+  margin: 20px;
+}
+.image-container img {
+  height: 250px;
+  border: 0;
+  border-radius: 10px;
+}
+.prep-time {
+  display: flex;
+  background-color: hwb(0 90% 4%);
+  width: 550px;
+  margin: 20px;
+  align-items: center;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+.ingredients,
+.instructions {
+  display: flex;
+  width: 550px;
+  margin: 20px;
+  align-items: center;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+
+h2 {
+  color: rgb(95, 20, 20);
+  text-align: justify;
+}
+.instructions li::marker {
+  font-family: bold;
+  color: rgb(95, 20, 20);
+}
+
+.values {
+  display: flex;
+  color: rgb(95, 20, 20);
+  align-self: center;
+  text-align: center;
+  justify-content: center;
 }
